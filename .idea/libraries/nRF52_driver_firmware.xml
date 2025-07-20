@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nRF52_driver_firmware">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sweyntooth_bluetooth_low_energy_attacks/nRF52_driver_firmware.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
