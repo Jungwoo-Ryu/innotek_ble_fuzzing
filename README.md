@@ -8,7 +8,13 @@
 - docker compose build로 두 이미지를 빌드합니다.
 
 ```
-docker save -o ble_images.tar innotek_intern-sweyntooth:latest innotek_intern-fuzzer:latest 명령으로 이미지 파일을 생성합니다.
+docker save -o ble_images.tar innotek_intern-sweyntooth:latest innotek_intern-fuzzer:latest
+
+# sweyntooth 이미지만 저장
+docker save -o sweyntooth.tar innotek_intern-sweyntooth:latest
+
+# fuzzer 이미지만 저장
+docker save -o fuzzer.tar innotek_intern-fuzzer:latest
 ```
 
 ### 오프라인 리눅스 PC로 이동
