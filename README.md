@@ -22,3 +22,9 @@ docker save -o ble_images.tar innotek_intern-sweyntooth:latest innotek_intern-fu
 2. `docker load -i ble_images.tar` 명령으로 이미지를 로드합니다.
 
 3. `innotek_intern` 폴더로 이동한 뒤, `docker compose run ...` 명령어로 컨테이너를 실행하고 테스트를 진행합니다.
+
+### 도커 도입 이유
+1. 기존에는 Python 라이브러리는 물론, bluez와 같은 시스템 패키지까지 오프라인 PC의 환경에 맞춰 수동으로 설치하고 버전을 관리해야 하는 '의존성 지옥(dependency hell)'의 문제가 있었습니다. 하지만 Docker 도입 후, 온라인 환경에서 모든 의존성이 포함된 실행 환경 전체를 tar 파일 하나로 패키징하여, 오프라인 PC에서는 docker load 명령어 한 번으로 어떤 PC에서든 100% 동일한 환경을 완벽하게 복제할 수 있게 되어 배포 과정이 매우 간단하고 신뢰성이 높아졌습니다.
+
+
+### 
