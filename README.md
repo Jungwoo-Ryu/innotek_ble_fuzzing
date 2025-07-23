@@ -33,4 +33,7 @@ docker save -o fuzzer.tar innotek_intern-fuzzer:latest
 1. 기존에는 Python 라이브러리는 물론, bluez와 같은 시스템 패키지까지 오프라인 PC의 환경에 맞춰 수동으로 설치하고 버전을 관리해야 하는 '의존성 지옥(dependency hell)'의 문제가 있었습니다. 하지만 Docker 도입 후, 온라인 환경에서 모든 의존성이 포함된 실행 환경 전체를 tar 파일 하나로 패키징하여, 오프라인 PC에서는 docker load 명령어 한 번으로 어떤 PC에서든 100% 동일한 환경을 완벽하게 복제할 수 있게 되어 배포 과정이 매우 간단하고 신뢰성이 높아졌습니다.
 
 
-### 
+### <img width="673" height="259" alt="docker" src="https://github.com/user-attachments/assets/1fbc1b61-2409-4c87-b6a6-bf0f0fa3e2e7" />
+
+
+
